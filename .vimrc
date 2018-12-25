@@ -96,7 +96,9 @@ noremap <S-k>   {
 noremap <S-l>   $
 noremap <S-m>   %
 noremap <C-c>   <ESC>
-
+let mapleader = "\<Space>"
+" コントロール+e でツリー表示
+nnoremap <silent><Leader>e  :NERDTreeToggle<CR>
 
 "----------------------------------------
 " プラグイン設定
