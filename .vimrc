@@ -1,7 +1,9 @@
 "----------------------------------------
 "基本設定
 "----------------------------------------
-
+" バッファを保存しない
+set hidden
+"
 " バックアップファイルを作らない
 set nobackup
 " スワップファイルを作らない
@@ -97,7 +99,7 @@ noremap <S-l>   $
 noremap <S-m>   %
 noremap <C-c>   <ESC>
 let mapleader = "\<Space>"
-" コントロール+e でツリー表示
+" space+e でツリー表示
 nnoremap <silent><Leader>e  :NERDTreeToggle<CR>
 
 "----------------------------------------
